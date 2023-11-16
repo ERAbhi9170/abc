@@ -6,122 +6,175 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
    <style>
+      body{
+         display: flex;
+         margin-top: 50px;
+         margin-left: 50px;
+      }
       footer{
-         display: grid;
-         grid-template-columns: 9fr 3fr;  
          background-color: black;
          color: white;
+         display: flex;
       }
-      div ul{
-         list-style: none;
+      img{
+         width: 250px;
+      }
+      header{
+         display: flex;
+         background-color:#FFCD9E;
+         padding: 20px;
+      }
+      .title{
+         font-weight: bold;
+         font-size: 18px;
+         font-family: Arial, Helvetica, sans-serif;
+      }
+      p{
+         font-size: 13px;
+
+      }
+      .card-2{
+         margin-left: 50px;
+      }
+      .card-1{
+         border: 3px solid green;
+         padding: ;
       }
       ul{
-         margin-top: 30px;
+         list-style: none;
+
       }
       li{
          margin-top: 5px;
       }
-      .address{
-         margin-top: 25px;
-      }
-      .first{
+      footer{
          display: grid;
-         grid-template-columns: 8fr 4fr;
-         padding: 100px;
-         margin-left: 30px;
-      }
-      .title{
-         font-weight: bold;
-         font-size: 25px;
-         font-family: Arial, Helvetica, sans-serif;
-      }
-      div p{
+         grid-template-columns: 7fr 5fr;
          font-family: Arial;
+         font-size: 12px;
+
       }
-      .show{
+      .title-2{
          font-weight: bold;
-         margin-bottom: 20px;
+         margin-bottom: 5px;
       }
-      .email{
-         display: flex;
-         
-      }
-      .email button{
-         margin-left: 10px;
+      button{
          background-color: black;
          color: white;
-         width: 100px;
-         padding: 2px;
+         margin-left: 5px;
       }
-      .first-2{
-         margin-top: 5px;
+      .bottom{
          font-size: 10px;
-         color: aliceblue;
+         color: white;
+         margin-top: 5px;
       }
-      header{
-         background-color: rgb(244, 212, 172);
+      .thank{
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 23px;
+
       }
-      .card{
-         padding: 50px;
-      }
-      .em{
-         padding: px;
+      .ad{
+         margin-top: 20px;
       }
    </style>
 </head>
 <body>
-  <div class="card">
-   <header>
-      <div class="first">
-         <div>
-            <div class="title">
-               An inspiring design delivered to
-               <br> you inbox every morning
-            </div>
-            <div>
-               <p>Our team scouts the internet for the best designs,<br>
-               illustrations and art and delivers a truly inspiring <br>
-               one every day to your inbox
-               </p>
-            </div>
-            <div class="show">
-               Show me how it looks
-            </div>
-            <div class="email">
-               <div class="em">
-                  <input type="email" placeholder="Your e-mail address">
-               </div>
-               <div>
-                  <button>Register Now</button>
-               </div>
-            </div>
-            <div class="first-2">
-               free-No Spam - No Data Sharing
-            </div>
+   <div class="card-1">
+      <header>
+       
+<div>
+   <div class="title">An inspiring design delivered to <br>
+      your inbox every morning
+      </div>
+      <p>
+         Our team scouts the internet for the best designs, <br>
+         illustrations and art and delivers a truly inspiring <br>
+         one every day to your inbox
+      </p>
+      <div class="title-2">
+         Show me how it looks
+      </div>
+      <div>
+         <input type="email" placeholder="Your e-mail address"><button>Register Nor</button>
+      </div>
+      <div class="bottom">
+         Free-No spam - No Data Sharing
+      </div>
+</div>
+         <div >
+            <img src="/public/image/img-2.jpg" alt="">
          </div>
-         <div>
-            <img src="/public/image/img-1.png" width="300px" alt="">
+      </header>
+    
+<footer>
+   <ul>
+      <li>Promt Generator</li>
+      <li>Dweep Daily</li>
+      <li>All Contributors</li>
+      <li>Your data on Dweep.io</li>
+      <li>Contribute to Dweep</li>
+   </ul>
+   <div>
+      <ul>
+         <li>Dweep.io</li>
+         <li>Made with love in India</li>
+
+         <li class="ad">hello@dweep.io</li>
+      </ul>
+   </div>
+</footer>
+
+   </div>
+
+<div class="card-2">
+   
+      <header>
+     <div>
+      <div class="title">An inspiring design delivered to <br>
+         your inbox every morning
          </div>
+         <p>
+            Our team scouts the internet for the best designs, <br>
+            illustrations and art and delivers a truly inspiring <br>
+            one every day to your inbox
+         </p>
+         <div class="title-2">
+            Show me how it looks
+         </div>
+        <div class="thank">
+         Thank you!
         </div>
-   </header>
-   <footer>
-      <div>
-         <ul>
-            <li>Prompt Generator</li>
-            <li>Dweep Daily</li>
-            <li>All Contributors</li>
-            <li>Your data on Dweep.io</li>
-            <li>Contribute to Dweep</li>
-         </ul>    
-      </div>
-      <div>
-         <ul>
-            <li>Dweep.io</li>
-            <li>Made with love in India</li>
-            <li class="address">hello@dweep.io</li>
-         </ul>
-      </div>
-   </footer>
-  </div>
+         <div class="bottom">
+            Free-No spam - No Data Sharing
+         </div>
+     </div>
+        
+         <div>
+            <img src="/public/image/img-2.jpg" alt="">
+         </div>
+      </header>
+      
+<footer>
+   <ul>
+      <li>Promt Generator</li>
+      <li>Dweep Daily</li>
+      <li>All Contributors</li>
+      <li>Your data on Dweep.io</li>
+      <li>Contribute to Dweep</li>
+   </ul>
+   <div>
+      <ul>
+         <li>Dweep.io</li>
+         <li>Made with love in India</li>
+
+         <li class="ad">hello@dweep.io</li>
+      </ul>
+   </div>
+</footer>
+
+</div>
+
+
 </body>
 </html>
